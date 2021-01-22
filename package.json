@@ -1,0 +1,21 @@
+{
+  "name": "theme-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "casperjs index.js",
+    "db": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "casperjs": "^1.1.4",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.13"
+  },
+  "devDependencies": {
+    "phantomjs": "^2.1.7"
+  }
+}
